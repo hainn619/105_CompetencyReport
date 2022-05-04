@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="site-init">
+        <div class="bar container">
+            <h1>My Awesome User Registration System</h1>          
+        </div>
+        <nav class="menu container">
+            <a href="index.html">Home</a>
+            <a href="Register.html">Register</a>
+            <a href="user.html">User List</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Register A New User</h2>
+            <div class="form-container">
+                <div class="alert-error ">
+                    <p id="alert" class="alert hide">error here!</p>
+                </div>
+                <div class="form-control">
+                    <label for="">First Name</label>
+                    <input type="text" id="txtFName" placeholder="Enter Your First Name">
+                </div>
+                <div class="form-control">
+                    <label for="">Last Name</label>
+                    <input type="text" id="txtLName" placeholder="Enter Your Last Name">
+                </div>
+                <div class="form-control">
+                    <label for="">Gender</label>
+                    <select name="Gender" id="sGender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="">Address</label>
+                    <input type="address" id="txtAddress" placeholder="Enter Your Address">
+                </div>
+                <div class="form-control">
+                    <label for="">Email Address</label>
+                    <input type="email" id="txtEmail" placeholder="Enter Your Email Address">
+                </div>
+                <div class="form-control">
+                    <label for="">Phone Number</label>
+                    <input type="phone" id="txtPhone" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-control">
+                    <label for="">Password</label>
+                    <input type="password" id="txtPW" placeholder="Enter Your Password">
+                </div>
+                <div class="form-control">
+                    <label for="">Payment option</label>
+                    <select name="Gender" id="sPayment">
+                        <option value="visa">Visa</option>
+                        <option value="paypal">paypal</option>
+                        <option value="applepay">Apple Pay</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <button onclick="register();">Register</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/storemanager.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+
+</html>

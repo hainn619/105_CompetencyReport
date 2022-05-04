@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="site-init">
+        <div class="bar container">
+            <h1>My Awesome User Registration System</h1>
+        </div>
+        <nav class="menu container">
+            <a href="index.html">Home</a>
+            <a href="Register.html">Register</a>
+            <a href="user.html">User List</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <!-- <h2>Login</h2> -->
+            <div class="login">
+                <div class="alert-error ">
+                    <p id="alert" class="alert hide">user/password not correct!</p>
+                </div>
+                <div class="form-login">
+                   
+                    <input type="email" id="txtEmail" placeholder="Enter Your Email Address">
+                </div>
+                <div class="form-login">
+                    
+                    <input type="password" id="txtPw" placeholder="Enter Your Password">
+                </div>
+                <div class="form-login">
+                    <button class="btnlogin" id="btnlogin">Login</button>
+                </div>
+                <div class="form-login">
+                    <button class="btn-register" id="btnregis">Register</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/storemanager.js"></script>
+    <script src="scripts/login.js"></script>
+</body>
+
+</html>

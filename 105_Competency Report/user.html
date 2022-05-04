@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="site-init">
+        <div class="bar container">
+            <h1>My Awesome User Registration System</h1>          
+        </div>
+        <nav class="menu container">
+            <a href="index.html">Home</a>
+            <a href="Register.html">Register</a>
+            <a href="user.html">User List</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>List of the Users</h2>
+        <table class="display-user">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone Number</th>
+                    <th>Payment Option</th>
+                </tr>
+            </thead>
+            <tbody id="tbody1">
+               
+            </tbody>
+        </table>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/storemanager.js"></script>
+    <script src="scripts/register.js"></script>
+    <script src="scripts/list.js"></script>
+</body>
+
+</html>
